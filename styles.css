@@ -1,0 +1,48 @@
+body {
+    background-color: #F1F1F1;
+    margin-left: 44px;
+    font-family: Arial;
+}
+
+h1 {
+    color: green;
+    text-align: left;
+    margin-left: 0px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.resabs {
+    color: green;
+    font-size: 20px;
+}
+
+.title {
+    color: green;
+    font-size: 56px;
+
+}
+
+sup {
+    vertical-align: super;
+    font-size: small;
+}
+
+footer.f {
+    color: black;
+    font-size: 20px;
+}
+
+span.descr {
+    color: black;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: normal;
+}
