@@ -24,10 +24,10 @@ p {
     font-size: 20px;
 }
 
-.title {
+h1.title {
     color: green;
     font-size: 56px;
-
+    font-weight: bold;
 }
 
 sup {
@@ -45,4 +45,8 @@ span.descr {
     font-size: 16px;
     font-family: Arial;
     font-weight: normal;
+}
+
+span.title {
+    text-shadow: 2px 3px grey;
 }
