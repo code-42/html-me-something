@@ -1,7 +1,48 @@
 body {
     background-color: #F1F1F1;
-    margin-left: 44px;
+    margin-left: 24px;
     font-family: Arial;
+    overflow-x: hidden;
+}
+
+main {
+    display: block;
+}
+
+header, footer {
+    padding: 1em;
+    background-color: #AAAAAA;
+    clear: left;
+    text-align: center;
+}
+
+.f {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 10px;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
 }
 
 h1 {
@@ -19,25 +60,17 @@ p {
     padding-left: 20px;
 }
 
-.resabs {
-    color: green;
-    font-size: 20px;
-}
-
 h1.title {
     color: green;
-    font-size: 56px;
+    text-align: center;
+    font-size: 130px;
     font-weight: bold;
+    padding: 34px;
 }
 
-sup {
+sup.tm {
     vertical-align: super;
-    font-size: small;
-}
-
-footer.f {
-    color: black;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 span.descr {
@@ -47,6 +80,13 @@ span.descr {
     font-weight: normal;
 }
 
-span.title {
-    text-shadow: 2px 3px grey;
+span.shadow {
+    text-shadow: 4px 5px grey;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.charts {
+    margin-top: 10px;
+    margin-left: 20px;
 }

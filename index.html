@@ -2,42 +2,68 @@
 <html>
 	<head>
 		<title>You Got Options</title>
-		<!-- link rel="stylesheet" href="normalize.css" -->
+		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<main>
+		
+		<main class="container">
 			<header>
-				<p><h1 class="title">Title:&#160;&#160;<span class="title">You Got Options</span><sup class="tm">TM</sup></h1>
-				
-				<h1 class="resabs">Objective:&#160;&#160;<span class="descr">To demonstrate the coding skills I am learning in LC101 using HTML, CSS, Python, and a database, all wrapped up in a framework (e.g., GAE, django). <a href="http://education.launchcode.org/web-fundamentals/assignments/html-me-something/part1-html/" target="_blank">Click here for more.</a> Equally important, this web app will allow the visitor to chart the historical performance of select options strategies.</h1>
-				
-				<h1 class="resabs">Scope:&#160;&#160;<span class="descr">This web app will show time-series data visualization (aka charts) of certain options, using end-of-day data downloaded from the internet.  This data and these charts are basically meaningless to someone who does not understand options, and I will make no attempt to educate the viewer about options; there are many, many resources on the internet available for that.</span></h1>
-				
-				<h1 class="resabs">Features:&#160;&#160;<span class="descr">Dynamic charts showing the historical performance of select options trading strategies.  </span></h1>
-				<article>
+				<h1 class="title"><span class="shadow">You Got Options</span><sup class="tm">&trade;</sup></h1>
+			</header>
+			<nav>
+			  <ul>
+			    <li><a href="#objective">Objective</a></li><br>
+			    <li><a href="#scope">Scope</a></li><br>
+			    <li><a href="#features">Features</a></li><br>
+			    <li><a href="#benefits">Benefits</a></li><br>
+			    <li><a href="#methods">Methods</a></li><br>
+			    <li><a href="#summary">Summary</a></li><br>
+			    <li><a href="#disclaimer">Disclaimer</a></li>
+			  </ul>
+			</nav>
+			<article>
+				<h1 id="objective">Objective</h1>
+				<p>To demonstrate the coding skills I am learning in LC101 using HTML, CSS, Python, and a database, all wrapped up in a framework (e.g., GAE, django). <a href="http://education.launchcode.org/web-fundamentals/assignments/html-me-something/part1-html/" target="_blank">Click here for more.</a> Equally important, this web app will allow the visitor to chart the historical performance of select options strategies.</p>
+			</article>
+			<article>			
+				<h1 id="scope">Scope</h1>
+				<p>This web app will show time-series data visualization (aka charts) of certain options, using end-of-day data downloaded from the internet.  This data and these charts are basically meaningless to someone who does not understand options, and I will make no attempt to educate the viewer about options; there are many, many resources on the internet available for that.</p>
+			</article>
+			<article>	
+				<h1 id="features">Features</h1>
+				<p>Dynamic charts showing the historical performance of select options trading strategies.</p>
+				<section class="charts">
 				<ul>
-				<li>  <h1>Charts&#160;&#160;<span class="descr">These charts were produced in October 2016 from options data I had loaded into a MySQL database. Unfortunately, that database was on a Windows computer which has since stopped working.  I then installed Linux on that same computer, and expect better results in the future.</span></h1>
-				</li>
+					<li><h1>Charts</h1>
+						<p>These charts were produced in October 2016 from options data I had loaded into a MySQL database. Unfortunately, that database was on a Windows computer which has since stopped working.  I then installed Linux on that same computer, and expect better results in the future.</p>
+					</li>
 				</ul>
 				  <p>
 				   	<img src="images/CSX.Oct.31.26.BCS.iv.jpg" alt="CSX" height="342" width="442">
 					<img src="images/PFE.Oct.44.Put.bid.Ask.Slippage.jpg" alt="PFE" height="342" width="442">
 				  </p>
-				</article>
-				
-				<h1 class="resabs">Benefits:&#160;&#160;<span class="descr">Allows options trader to see and analyze the historical performance of certain options strategies.</span></h1>
-				
-				<h1 class="resabs">Methods:&#160;&#160;<span class="descr">I will need to build a database like MySQL, PostgreSQL or SQLite, to feed the data into a charting package like <a href="http://www.gnuplot.info/" target="_blank">gnuplot</a> or <a href="http://matplotlib.org/users/screenshots.html" target="_blank">matplotlib</a>.</span></h1>
-				
-				<h1 class="resabs">Summary:&#160;&#160;<span class="descr">This is a work in progress.  Future iterations will include features I learn in LC101.  Also, the research abstract outline will disappear (css display:none) as the web page matures.</span></h1>
-				
-				<h1>Disclaimer:&#160;&#160;<span class="descr"> The intended audience for this web app is myself, my LC101 instructors, and potential employers, and no one else. The SEC frowns upon unlicensed and uncertified options traders giving financial advice, therefore, no part of this website is intended to be or may be construed to be options trading recommendations.</span></h1>
-			</header>
+				  </section>
+			</article>	
+			<article>
+				<h1 id="benefits">Benefits</h1>
+					<p>Allows options trader to see and analyze the historical performance of certain options strategies.</p>
+			</article>
+			<article>	
+				<h1 id="methods">Methods</h1>
+				<p>I will need to build a database like MySQL, PostgreSQL or SQLite, to feed the data into a charting package like <a href="http://www.gnuplot.info/" target="_blank">gnuplot</a> or <a href="http://matplotlib.org/users/screenshots.html" target="_blank">matplotlib</a>.</p>
+			</article>
+			<article>	
+				<h1 id="summary">Summary</h1>
+				<p>This is a work in progress.  Future iterations will include features I learn in LC101.  Also, the research abstract outline will disappear (css display:none) as the web page matures.</p>
+			</article>
+			<article>	
+				<h1 id="disclaimer">Disclaimer</h1>
+				<p>The intended audience for this web app is myself, my LC101 instructors, and potential employers, and no one else. The SEC frowns upon unlicensed and uncertified options traders giving financial advice, therefore, no part of this website is intended to be or may be construed to be options trading recommendations.</p>
+			</article>
 			<footer>
-			  <span class="f">&#169;2017 Edward Dupre</span><br>
-			  <span class="f">Contact information: <a href="mailto:edwd42@gmail.com">
-			  edwd42@gmail.com</a>.</span>
+			  <span class="f">Copyright &#169; 2017 Edward Dupre  <a href="mailto:edwd42@gmail.com">
+			  edwd42@gmail.com</a></span>
 			</footer>
 		</main>
 	</body>
