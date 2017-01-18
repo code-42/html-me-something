@@ -52,20 +52,20 @@ h1 {
     font-size: 18px;
 }
 
-p {
-    font-size: 18px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-}
-
 h1.title {
     color: green;
     text-align: center;
     font-size: 130px;
     font-weight: bold;
     padding: 34px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
 }
 
 sup.tm {
